@@ -1,0 +1,103 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.Site", "1.Site", "{5A6E8DE2-D6DA-4C54-BA50-2F87EC4D82C9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DattingApp.Api", "1.Site\DattingApp.Api\DattingApp.Api.csproj", "{C4741DFF-7A67-488D-9043-B57D975690CD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.Models", "4.Models", "{0B830EFE-FE53-4A05-8CEE-0204B5C3241F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DattingApp.Convertors", "4.Models\DattingApp.Convertors\DattingApp.Convertors.csproj", "{156BE9F9-0203-403F-B78A-28387B96F5A3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DattingApp.DataModels", "4.Models\DattingApp.DataModels\DattingApp.DataModels.csproj", "{8344AC9F-CA1D-4817-9B64-03602B988DF0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DattingApp.ServiceModels", "4.Models\DattingApp.ServiceModels\DattingApp.ServiceModels.csproj", "{561E30D0-9AA9-453B-9DD6-6669E63720B3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.Repository", "3.Repository", "{A44EF63D-94DF-48E8-ACF2-EE4A353D0D99}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DattingApp.Repository", "3.Repository\DattingApp.Repository\DattingApp.Repository.csproj", "{5F800F2D-1E01-4566-B1A4-F56071884E93}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DattingApp.RepositoryInterfaces", "3.Repository\DattingApp.RepositoryInterfaces\DattingApp.RepositoryInterfaces.csproj", "{7D5D1CD3-A879-4460-823E-515D674AAA47}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.Service", "2.Service", "{BB849867-9F7D-4A1C-AAF9-08F340F90225}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DattingApp.Services", "2.Service\DattingApp.Services\DattingApp.Services.csproj", "{6B5CDBF6-751B-47B7-B7BC-5C4D11DAFD02}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DattingApp.ServiceInterfaces", "2.Service\DattingApp.ServiceInterfaces\DattingApp.ServiceInterfaces.csproj", "{BB9AAD5E-1D9A-48D6-AF10-9DD47F08C7F9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DattingApp.Core", "1.Site\DattingApp.Core\DattingApp.Core.csproj", "{0A107311-3E91-47E2-9DF4-CBC793C3491B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DattingApp.DependencyInjection", "1.Site\DattingApp.DependencyInjection\DattingApp.DependencyInjection.csproj", "{E4674FFD-1BED-4C63-987C-6D4B1DC565C7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DattingApp.ViewModels", "1.Site\DattingApp.ViewModels\DattingApp.ViewModels.csproj", "{2BB6D94F-47B0-4B78-B441-8B88B0BC375E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C4741DFF-7A67-488D-9043-B57D975690CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4741DFF-7A67-488D-9043-B57D975690CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4741DFF-7A67-488D-9043-B57D975690CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4741DFF-7A67-488D-9043-B57D975690CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{156BE9F9-0203-403F-B78A-28387B96F5A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{156BE9F9-0203-403F-B78A-28387B96F5A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{156BE9F9-0203-403F-B78A-28387B96F5A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{156BE9F9-0203-403F-B78A-28387B96F5A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8344AC9F-CA1D-4817-9B64-03602B988DF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8344AC9F-CA1D-4817-9B64-03602B988DF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8344AC9F-CA1D-4817-9B64-03602B988DF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8344AC9F-CA1D-4817-9B64-03602B988DF0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{561E30D0-9AA9-453B-9DD6-6669E63720B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{561E30D0-9AA9-453B-9DD6-6669E63720B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{561E30D0-9AA9-453B-9DD6-6669E63720B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{561E30D0-9AA9-453B-9DD6-6669E63720B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F800F2D-1E01-4566-B1A4-F56071884E93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F800F2D-1E01-4566-B1A4-F56071884E93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F800F2D-1E01-4566-B1A4-F56071884E93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F800F2D-1E01-4566-B1A4-F56071884E93}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D5D1CD3-A879-4460-823E-515D674AAA47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D5D1CD3-A879-4460-823E-515D674AAA47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D5D1CD3-A879-4460-823E-515D674AAA47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D5D1CD3-A879-4460-823E-515D674AAA47}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B5CDBF6-751B-47B7-B7BC-5C4D11DAFD02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B5CDBF6-751B-47B7-B7BC-5C4D11DAFD02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B5CDBF6-751B-47B7-B7BC-5C4D11DAFD02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B5CDBF6-751B-47B7-B7BC-5C4D11DAFD02}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB9AAD5E-1D9A-48D6-AF10-9DD47F08C7F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB9AAD5E-1D9A-48D6-AF10-9DD47F08C7F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB9AAD5E-1D9A-48D6-AF10-9DD47F08C7F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB9AAD5E-1D9A-48D6-AF10-9DD47F08C7F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A107311-3E91-47E2-9DF4-CBC793C3491B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A107311-3E91-47E2-9DF4-CBC793C3491B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A107311-3E91-47E2-9DF4-CBC793C3491B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A107311-3E91-47E2-9DF4-CBC793C3491B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E4674FFD-1BED-4C63-987C-6D4B1DC565C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4674FFD-1BED-4C63-987C-6D4B1DC565C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4674FFD-1BED-4C63-987C-6D4B1DC565C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4674FFD-1BED-4C63-987C-6D4B1DC565C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2BB6D94F-47B0-4B78-B441-8B88B0BC375E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BB6D94F-47B0-4B78-B441-8B88B0BC375E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BB6D94F-47B0-4B78-B441-8B88B0BC375E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BB6D94F-47B0-4B78-B441-8B88B0BC375E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C4741DFF-7A67-488D-9043-B57D975690CD} = {5A6E8DE2-D6DA-4C54-BA50-2F87EC4D82C9}
+		{156BE9F9-0203-403F-B78A-28387B96F5A3} = {0B830EFE-FE53-4A05-8CEE-0204B5C3241F}
+		{8344AC9F-CA1D-4817-9B64-03602B988DF0} = {0B830EFE-FE53-4A05-8CEE-0204B5C3241F}
+		{561E30D0-9AA9-453B-9DD6-6669E63720B3} = {0B830EFE-FE53-4A05-8CEE-0204B5C3241F}
+		{5F800F2D-1E01-4566-B1A4-F56071884E93} = {A44EF63D-94DF-48E8-ACF2-EE4A353D0D99}
+		{7D5D1CD3-A879-4460-823E-515D674AAA47} = {A44EF63D-94DF-48E8-ACF2-EE4A353D0D99}
+		{6B5CDBF6-751B-47B7-B7BC-5C4D11DAFD02} = {BB849867-9F7D-4A1C-AAF9-08F340F90225}
+		{BB9AAD5E-1D9A-48D6-AF10-9DD47F08C7F9} = {BB849867-9F7D-4A1C-AAF9-08F340F90225}
+		{0A107311-3E91-47E2-9DF4-CBC793C3491B} = {5A6E8DE2-D6DA-4C54-BA50-2F87EC4D82C9}
+		{E4674FFD-1BED-4C63-987C-6D4B1DC565C7} = {5A6E8DE2-D6DA-4C54-BA50-2F87EC4D82C9}
+		{2BB6D94F-47B0-4B78-B441-8B88B0BC375E} = {5A6E8DE2-D6DA-4C54-BA50-2F87EC4D82C9}
+	EndGlobalSection
+EndGlobal
